@@ -1,0 +1,12 @@
+# created by virtualenv automatically
+bin
+lib
+pyvenv.cfg
+uploads
+*.sqlite
+.DS_Store
+__pycache__
+.vscode
+.env
+*.pyc
+*.lock
