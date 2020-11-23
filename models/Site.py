@@ -3,7 +3,7 @@ from uuid import uuid4
 
 class Site(db.Model):
     id = db.Column(db.Text(), primary_key=True)
-    user_id = db.Column(db.Text(), db.ForeignKey('User.id'))
+    user_id = db.Column(db.Text(), db.ForeignKey('user.id'))
     siteName = db.Column(db.Text(), unique=True, nullable=False)
     siteUrl = db.Column(db.Text(), unique=True, nullable=False)
     sitePassword = db.Column(db.Text(), unique=True, nullable=False)

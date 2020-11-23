@@ -11,6 +11,7 @@ flask-sqlalchemy = "*"
 flask-migrate = "*"
 uuid = "*"
 flask-jwt-extended = "*"
+email-validator = "*"
 
 [requires]
 python_version = "3.8"
